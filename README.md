@@ -50,8 +50,6 @@ The goal is to train an agent to autonomously drive a single-track car model thr
   - Per-episode scores, losses, steps, and distance
 - **Track Visualization**:
   - Vehicle trajectory plotted using Matplotlib
-- **Performance Monitoring**:
-  - GPU, CPU, and RAM usage tracked during training
 
 ---
 
