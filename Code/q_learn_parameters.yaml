@@ -1,0 +1,33 @@
+random_seed: 100
+testing: false
+validation: true
+
+game_parameters:
+  fps: 60
+  avg_window: 25
+  total_gametime: 100000
+  n_episodes: 7
+  n_test_episodes: 10
+  test_after: 100
+  randomise_after: 1
+  save_after: 50
+
+network_parameters:
+  alpha: 0.005
+  gamma: 0.99
+  eps_start: 1
+  eps_end: 0.1
+  eps_decay_steps: 8000
+
+game_environment:
+  width: 600
+  height: 600
+  track_scale: 5
+  goal_length: 2
+  number_of_rays: 7
+  rays_flag: true
+  check_points_flag: true
+  full_track: false
+
+n_actions: 3
+vehicle_velocity: 10
